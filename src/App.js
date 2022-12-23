@@ -4,6 +4,10 @@ import Form from "./components/Form";
 import LifecycleA from "./components/LifecycleA";
 import FragmentDemo from "./components/FragmentDemo";
 import { PureComponent } from "react";
+import RefDemo from "./components/RefDemo";
+import FocusInput from "./components/FocusInput";
+import FRParentInput from "./components/FRParentInput";
+import PortalDemo from "./components/PortalDemo";
 
 function App() {
   return (
@@ -11,7 +15,11 @@ function App() {
       {/* <Form /> */}
       {/* <LifecycleA /> */}
       {/* <FragmentDemo /> */}
-      <PureComponent />
+      {/* <PureComponent /> */}
+      {/* <RefDemo /> */}
+      {/* <FocusInput /> */}
+      {/* <FRParentInput /> */}
+      <PortalDemo />
     </div>
   );
 }
