@@ -15,9 +15,13 @@ class ClickCounter extends Component {
   //     });
   //   };
   render() {
-    const { count, incrementCount } = this.props;
-    return <button onClick={incrementCount}>Clicked {count} times</button>;
+    const { count, incrementCount, name } = this.props;
+    return (
+      <button onClick={incrementCount}>
+        {name} Clicked {count} times
+      </button>
+    );
   }
 }
 
-export default UpdatedComponent(ClickCounter);
+export default UpdatedComponent(ClickCounter, 5);
